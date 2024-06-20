@@ -14,7 +14,7 @@ Installation
 
     bash
 
-$ git clone https://github.com/yourusername/your-repo.git
+$ git clone https://github.com/manistiwari31/process-id.git
 $ cd your-repo
 
 Build the program:
