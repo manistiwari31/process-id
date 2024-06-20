@@ -13,22 +13,19 @@ Installation
 
     Clone the repository:
 
-    bash
+    $ git clone https://github.com/manistiwari31/process-id.git
+    $ cd process-id
 
-$ git clone https://github.com/manistiwari31/process-id.git
-$ cd process-id
 
 Build the program:
 
-bash
+    $ go build -o proc
 
-$ go build -o proc
 
 This will generate a binary named proc.
 
 Optionally, move the binary to your bin directory to run it as a Linux command:
 
-bash
 
     $ sudo mv proc /usr/local/bin
 
@@ -50,9 +47,7 @@ Example
 
 Suppose you want to find and kill all processes named "myapp":
 
-bash
-
-$ proc myapp kill
+    $ proc myapp kill
 Killing 1234
 Process Killed
 
