@@ -11,9 +11,9 @@ Features
 
 # Installation
 
-    Make sure you have Go installed on your system.
+Make sure you have Go installed on your system.
 
-    Clone the repository:
+Clone the repository:
 
     $ git clone https://github.com/manistiwari31/process-id.git
     $ cd process-id
