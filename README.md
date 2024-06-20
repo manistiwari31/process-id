@@ -1,6 +1,6 @@
 Process Manager
 
-A command-line tool for managing processes on Linux based on their names and optionally killing them.
+Process Manager is a command-line tool for managing processes on Linux based on their names and optionally killing them.
 Features
 
     List all running processes.
@@ -10,47 +10,49 @@ Features
 Installation
 
     Make sure you have Go installed on your system.
+
     Clone the repository:
 
     bash
 
 $ git clone https://github.com/manistiwari31/process-id.git
-$ cd your-repo
+$ cd process-id
 
 Build the program:
 
 bash
 
-$ go build
+$ go build -o proc
 
-Run the program:
+This will generate a binary named proc.
+
+Optionally, move the binary to your bin directory to run it as a Linux command:
 
 bash
 
-    $ ./process-manager [process_name] [action]
-
-    Replace [process_name] with the name of the process you want to filter or "show" to display all processes. Use [action] as "kill" to terminate matching processes.
+    $ sudo mv proc /usr/local/bin
 
 Usage
 
 bash
 
 # Show all running processes
-$ ./process-manager show
+$ proc show
 
 # Show processes matching a specific name
-$ ./process-manager process_name
+$ proc process_name
 
 # Kill processes matching a specific name
-$ ./process-manager process_name kill
+$ proc process_name kill
 
+Replace process_name with the name of the process you want to filter. Use kill as an action to terminate matching processes.
 Example
 
 Suppose you want to find and kill all processes named "myapp":
 
 bash
 
-$ ./process-manager myapp kill
+$ proc myapp kill
 Killing 1234
 Process Killed
 
