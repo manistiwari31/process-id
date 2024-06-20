@@ -3,11 +3,11 @@
 Process Manager is a command-line tool for managing processes on Linux based on their names and optionally killing them.
 Features
 
-    List all running processes: Display a list of all currently running processes.
+List all running processes: Display a list of all currently running processes.
 
-    Filter processes by name: Filter processes based on a specified name.
+Filter processes by name: Filter processes based on a specified name.
 
-    Optionally kill processes matching a specified name: Terminate processes that match a specified name.
+Optionally kill processes matching a specified name: Terminate processes that match a specified name.
 
 # Installation
 
