@@ -1,4 +1,4 @@
-Process Manager
+# Process Manager
 
 Process Manager is a command-line tool for managing processes on Linux based on their names and optionally killing them.
 Features
@@ -9,7 +9,7 @@ Features
 
     Optionally kill processes matching a specified name: Terminate processes that match a specified name.
 
-Installation
+# Installation
 
     Make sure you have Go installed on your system.
 
